@@ -1,0 +1,55 @@
+body {
+	background-color: red;
+	background-image: radial-gradient(red, yellow, green);
+}
+#navigation {
+	width: 100%;
+}
+
+#navigation ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	padding: 1%;
+	margin-left: 30%;
+}
+
+#navigation li {
+	float: left;
+}
+
+#navigation a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	text-align: center;
+	font-weight: 900;
+}
+
+/* Change the link color to #111 (black) on hover */
+#navigation li a:hover {
+	background-color: #111;
+}
+
+p {
+	border: 3px solid red;
+	outline: black solid 5px;
+	outline-style: dotted;
+	outline-color: black;
+	margin: auto;
+	padding: 10px;
+	text-align: center;
+}
+
+h2 {
+	border-radius: 25px;
+	border: 2px solid black;
+	outline-style: dotted;
+	outline-color: red;
+	padding: 4px;
+	width: 190px;
+	height: 30px;
+}

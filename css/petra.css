@@ -1,0 +1,70 @@
+body {
+	background-image: url("../media/img/petra.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	color: white;
+}
+#navigation {
+	width: 100%;
+}
+
+#navigation ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	padding: 1%;
+	margin-left: 30%;
+}
+
+#navigation li {
+	float: left;
+}
+
+#navigation a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	text-align: center;
+	font-weight: 900;
+
+	/* margin-left: 100px; */
+}
+
+/* Change the link color to #111 (black) on hover */
+#navigation li a:hover {
+	background-color: #111;
+}
+
+h3 {
+	border-radius: 25px;
+	background-color: black;
+	color: white;
+	background-color: transparent;
+	border: 2px solid red;
+	padding: 20px;
+	text-align: center;
+}
+
+h2 {
+	background-color: black;
+	color: white;
+	border: 3px solid blue;
+	outline-style: outset;
+	outline-color: red;
+	padding: 4px;
+	line-height: 30px;
+	width: 250px;
+	height: 30px;
+}
+
+p {
+	background-color: black;
+	color: white;
+}
+#gallery img {
+	width: 33%;
+}

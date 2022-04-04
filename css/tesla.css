@@ -1,0 +1,85 @@
+body {
+	background-image: url("../media/img/tesla.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	color: white;
+}
+#navigation {
+	width: 100%;
+}
+
+#navigation ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	padding: 1%;
+	margin-left: 30%;
+}
+
+#navigation li {
+	float: left;
+}
+
+#navigation a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	text-align: center;
+	font-weight: 900;
+
+	/* margin-left: 100px; */
+}
+
+/* Change the link color to #111 (black) on hover */
+#navigation li a:hover {
+	background-color: #111;
+	color: white;
+}
+
+h1 {
+	border-radius: 25px;
+	border: 2px solid black;
+	outline-style: dotted;
+	outline-color: red;
+
+	text-align: center;
+}
+
+h2 {
+	border: 3px solid blue;
+	outline-style: outset;
+	outline-color: red;
+	padding: 4px;
+	width: 250px;
+	height: 30px;
+}
+
+h3 {
+	border-radius: 25px;
+	color: black;
+	height: 55px;
+	background-color: red;
+	background-image: linear-gradient(
+		to right,
+		red,
+		orange,
+		yellow,
+		green,
+		blue,
+		indigo,
+		violet
+	);
+	text-align: center;
+}
+
+p {
+	font-family: verdana;
+	font-size: 20px;
+}
+#video video {
+	width: 100%;
+}
